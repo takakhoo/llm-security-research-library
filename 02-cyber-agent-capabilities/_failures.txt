@@ -1,0 +1,33 @@
+Failures and notes from the 2026-04-25 download run.
+
+Hard failures: NONE. All 12 arXiv PDFs and the Big Sleep blog HTML downloaded
+successfully (verified as valid PDF / HTML files). All 7 listed GitHub repos
+cloned successfully (PentestGPT, Cybench, NYU CTF Bench, SWE-agent for EnIGMA,
+InterCode, hackingBuddyGPT, TitanFuzz).
+
+Soft failures / "no public repo" cases (expected, recorded for traceability):
+
+1. fang-hack-websites-2024 (arXiv 2402.06664)
+   No public repo released by the UIUC group. README.txt notes this.
+
+2. fang-oneday-2024 (arXiv 2404.08144)
+   No public repo released by the UIUC group. README.txt notes this.
+
+3. hptsa-zhu-2024 (arXiv 2406.01637)
+   No public repo released by the UIUC group. README.txt notes this.
+
+4. enigma-2024 (arXiv 2409.16165)
+   Main repo SWE-agent/SWE-agent cloned successfully into code/.
+   The optional secondary repo https://github.com/SWE-agent/enigma-tools
+   returned HTTP 404 ("Repository not found") at clone time on 2026-04-25.
+   This is documented in the EnIGMA README.txt under "Related repos (not cloned)".
+
+5. fuzzgpt-2024 (arXiv 2304.02014)
+   No standalone FuzzGPT repo from the authors. Related artifacts may live in
+   the TitanFuzz repo (already cloned at titanfuzz-2023/code).
+
+6. kang-dual-use-2023 (arXiv 2302.05733)
+   No public repo (expected - the paper is conceptual/threat-model).
+
+7. big-sleep-2024
+   No arXiv, no public repo. Saved the Project Zero blog post as paper.html.

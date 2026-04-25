@@ -1,0 +1,5 @@
+# Failures log for the 05-surveys-benchmarks fetch run (2026-04-25)
+# Format: <slug> <stage> <reason>
+#
+# (No failures - all 9 PDFs and all 4 GitHub repos fetched successfully.
+# r2d2-adversarial-training was a stub-only entry by design.)

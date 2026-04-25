@@ -1,0 +1,12 @@
+# Reference library — ignore reproducible build artifacts and large binaries
+__pycache__/
+*.pyc
+.DS_Store
+*.AppImage
+*.iso
+*.img
+*.dmg
+node_modules/
+.venv/
+venv/
+.ipynb_checkpoints/

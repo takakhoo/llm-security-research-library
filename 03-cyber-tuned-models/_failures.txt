@@ -1,0 +1,22 @@
+Failures and partial outcomes for the 7-entry ingest:
+
+1. whiterabbitneo
+   - GitHub clone of https://github.com/WhiteRabbitNeo/WhiteRabbitNeo failed:
+     "Repository not found" (HTTP 404). The org has no public source code repo;
+     they ship only HF model cards + datasets. Captured the HF org page and the
+     V3-7B (DeepHat) and V1-13B model cards as substitutes.
+   - SecurityWeek raw HTML fetch was Cloudflare-bot-blocked
+     (Ray ID 9f21127ffa52a9c4-IAD; saved as securityweek-article.html, 6.7 KB
+     "Attention Required" challenge page). Extracted the actual article text via
+     WebFetch and saved as securityweek-article-summary.md.
+
+3. wormgpt-fraudgpt-analysis
+   - Source-URL fix: the user-supplied IJSRA URL
+     (https://ijsra.net/content/decoding-threat-landscape-...) returns 404; the
+     paper is actually in IJSRCSEIT, not IJSRA, and the correct arXiv ID is
+     2310.05595 (NOT 2310.05680 — that is an unrelated legal-AI paper, verified
+     by reading the first page). Used the correct arxiv 2310.05595 PDF.
+
+All other entries (darkbert-2023, ferrara-genai-nefarious-2024,
+uncensored-hartford-blog, abliteration-labonne-blog, heretic-abliteration-tool)
+succeeded fully on first attempt.

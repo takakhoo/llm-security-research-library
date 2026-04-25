@@ -1,0 +1,15 @@
+Run: 2026-04-25 (Pacific)
+Operator email: takakhoo@gmail.com
+
+All 7 entries completed. One attribution issue, no download failures.
+
+[bender-rlhf-limits-2024] PARTIAL - attribution mismatch
+  - Original entry attributed the title "Helpful, harmless, honest? Sociotechnical limits of AI alignment and safety through RLHF" to Bender, Hancox-Li et al., FAccT 2024, with arxiv:2311.14743 as a candidate.
+  - arxiv:2311.14743 is a different paper (LeVine et al., Scale AI, on reward-model distribution shift). That PDF was discarded.
+  - The paper actually bearing the listed title and matching the description is by Adam Dahlgren Lindstrom, Leila Methnani, Lea Krause, Inigo Martinez de Rituerto de Troya, Petter Ericson, Dimitri Coelho Mollo, Roel Dobbe - arxiv:2406.18346 (June 2024), journal version in Ethics and Information Technology 2025 (DOI 10.1007/s10676-025-09837-2). Not a FAccT paper.
+  - That correct paper is the PDF saved at bender-rlhf-limits-2024/paper.pdf. The README documents the discrepancy. If a separate Bender/Hancox-Li paper was intended, please re-supply a citation; web search did not surface a matching FAccT 2024 paper under those authors.
+
+[owasp-llm-top-10] CLONE-CHECKOUT NOTE - non-fatal
+  - Initial clone produced no working tree (default ref ambiguous on first checkout). Re-running `git checkout main` populated the working tree from origin/main. Repo is now intact under code/ with 2_0_vulns/, Archive/, initiatives/, resources/, etc.
+
+All other downloads (Constitutional Classifiers, Circuit Breakers + repo, Grinbaum DURC, NIST AI 800-1 [served as 2pd, the current second public draft], AVID homepage + repo, OWASP homepage) returned HTTP 200 and verified-correct PDF content via first-page text extraction.

@@ -1,0 +1,8 @@
+Title: Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming
+Authors: Mrinank Sharma, Meg Tong, Jesse Mu, Jerry Wei, Jorrit Kruthoff, Scott Goodfriend, Euan Ong, Alwin Peng, Raj Agarwal, Cem Anil, Amanda Askell, Nathan Bailey, Joe Benton, Emma Bluemke, Samuel R. Bowman, Eric Christiansen, Hoagy Cunningham, et al. (Anthropic)
+Venue: arXiv preprint, January 2025 (arXiv:2501.18837)
+Link: https://arxiv.org/abs/2501.18837
+GitHub: (none — proprietary defense; classifier weights and training data not released)
+
+Summary:
+The paper introduces Constitutional Classifiers, a dual-classifier system (input and output) trained on synthetically generated data produced from a natural-language "constitution" that enumerates permitted and prohibited content categories. The classifiers wrap a frontier LLM (Claude) and reject prompts or outputs that fall under restricted categories — chiefly CBRN uplift — while preserving normal-task utility. Anthropic stress-tested the system in a public red-teaming bounty: across ~3,000 hours of attacks by 405 participants on a Claude-protected harmful-CBRN demo, no universal jailbreak was found that defeated the classifier suite end-to-end. Automated evaluations on 10,000 synthetic jailbreak prompts showed a refusal-rate jump from 14% (unguarded) to 95%, with only a 0.38% production refusal-rate increase and ~24% inference-time compute overhead. Defenders use this as a reference architecture for layered, content-policy-grounded LLM safeguards: train cheap classifier filters from a rule corpus, deploy them as input/output gates around an aligned base model, and budget the latency/cost trade-off against measured robustness gains.

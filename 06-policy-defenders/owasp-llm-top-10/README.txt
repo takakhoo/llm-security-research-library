@@ -1,0 +1,8 @@
+Title: OWASP Top 10 for Large Language Model Applications
+Authors: OWASP LLM Top 10 working group (project lead Steve Wilson; large open contributor list — see code/CoreTeam.md and code/leaders.md)
+Venue: OWASP Foundation project (current major version v2.0, 2025; v1.x in 2023–2024)
+Link: https://owasp.org/www-project-top-10-for-large-language-model-applications/  (homepage saved as homepage.html)
+GitHub: https://github.com/OWASP/www-project-top-10-for-large-language-model-applications  (cloned into code/)
+
+Summary:
+The OWASP LLM Top 10 is the de facto industry checklist of the most critical security risks specific to applications that integrate large language models, structured in the same taxonomy spirit as the long-standing OWASP Web Top 10. The current list covers Prompt Injection, Insecure Output Handling, Training Data Poisoning, Model Denial of Service, Supply Chain Vulnerabilities, Sensitive Information Disclosure, Insecure Plugin Design, Excessive Agency, Overreliance, and Model Theft (with revisions in v2.x adding categories such as Vector/Embedding Weaknesses and System Prompt Leakage). The cloned repo is the project's source-of-truth Jekyll site: 2_0_vulns/ holds the per-vulnerability markdown entries (description, common examples, mitigations, references), Archive/ keeps prior versions, initiatives/ contains adjacent working groups (red-teaming, agentic security, threat-modelling), and resources/ links curated tooling. Defenders use the document directly as a baseline review checklist for any LLM-integrated product, as input to threat-modelling sessions, and — via the working-group materials — as a starting point for vendor questionnaires, internal training, and procurement requirements.

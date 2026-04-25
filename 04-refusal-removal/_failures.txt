@@ -1,0 +1,5 @@
+halawi-covert-finetuning-2024: GitHub repo at https://github.com/danny-halawi/covert-malicious-finetuning returns 404 (Repository not found). Web search confirms no official code release for the Halawi et al. ICML 2024 "Covert Malicious Finetuning" paper. PDF downloaded successfully.
+zhan-rlhf-removal-2023: No GitHub repo provided/searched (per task instructions noted "may not exist"). PDF downloaded successfully.
+badllama-lermen-2023: No GitHub repo expected (per task instructions). PDF downloaded successfully.
+badllama-13b-gade-2023: No GitHub repo expected (per task instructions). PDF downloaded successfully.
+badllama-3-2024: No GitHub repo expected (per task instructions). PDF downloaded successfully.
