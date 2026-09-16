@@ -1,6 +1,8 @@
 # LLM Security Research — Reference Library
 
-A curated collection of academic papers, codebases, and reference material on bypassing LLM safety guardrails for legitimate cybersecurity research, red-team work, and exploit development. Six categories covering ~50 papers with cloned source code where available.
+A frozen research library of LLM-security papers, benchmarks, defensive
+guidance, and upstream code snapshots. It indexes 58 source notes across six
+categories for authorized evaluation and literature review.
 
 > **Scope:** this is a frozen literature and source snapshot, not an original implementation and not a claim of authorship over the mirrored projects. Use each folder's source URL for current code, licensing, and security guidance.
 
@@ -87,15 +89,17 @@ To keep this repo under GitHub's 1 GB recommended ceiling, the following bulky u
 - All nested `.git/` directories (so this is a flat snapshot, not a meta-repo of git histories)
 - A handful of very large CTF binaries (`.AppImage`, `.img`, `.tgz` >95 MB)
 
-## Practical takeaways
-
-- **Table-stakes attacks** (defenders have seen these): GCG, PAIR/TAP, AutoDAN, CipherChat, ReNeLLM, multilingual, indirect injection.
-- **Bleeding edge** (still beats frontier defenses): Arditi-style refusal-direction abliteration on open weights, covert malicious finetuning, multi-agent autonomous exploitation, prefilling adaptive attacks.
-- **For offensive-security tooling**: most serious work runs on locally hosted abliterated bases (Dolphin, abliterated Llama-3, WhiteRabbitNeo) rather than fighting hosted-API guardrails.
-
 ## Use
 
 This is a research reference library. Papers are PDFs; codebases are reference snapshots. Where you want the canonical, up-to-date copy of a tool, use the upstream URL in that paper's `README.txt`.
+
+## Verification
+
+The top-level inventory and source-note count were checked on September 16,
+2026. Vendored projects were deliberately not executed: they are independent,
+security-sensitive upstream snapshots with conflicting environments. Review a
+project's provenance and dependencies before running it in an isolated,
+authorized lab.
 
 ## Safety and provenance
 
