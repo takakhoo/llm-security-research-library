@@ -2,6 +2,8 @@
 
 A curated collection of academic papers, codebases, and reference material on bypassing LLM safety guardrails for legitimate cybersecurity research, red-team work, and exploit development. Six categories covering ~50 papers with cloned source code where available.
 
+> **Scope:** this is a frozen literature and source snapshot, not an original implementation and not a claim of authorship over the mirrored projects. Use each folder's source URL for current code, licensing, and security guidance.
+
 ## Categories
 
 ### 01 — Foundational Jailbreak Attacks
@@ -94,3 +96,14 @@ To keep this repo under GitHub's 1 GB recommended ceiling, the following bulky u
 ## Use
 
 This is a research reference library. Papers are PDFs; codebases are reference snapshots. Where you want the canonical, up-to-date copy of a tool, use the upstream URL in that paper's `README.txt`.
+
+## Safety and provenance
+
+- Use attack implementations only in authorized evaluation environments.
+- Treat vendored code as untrusted until you review its upstream repository, commit history, and dependency files.
+- Do not install the entire tree as one environment; each snapshot has independent and sometimes conflicting requirements.
+- The collection was assembled for comparative research and does not provide support, updates, or vulnerability remediation for upstream projects.
+
+## Licensing
+
+No repository-wide license is asserted. Papers and code snapshots remain subject to their publishers' and upstream authors' terms. The per-folder `README.txt` files record canonical sources so users can obtain authoritative versions and license information.
