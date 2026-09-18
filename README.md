@@ -6,8 +6,6 @@ categories for authorized evaluation and literature review.
 
 > **Scope:** this is a frozen literature and source snapshot, not an original implementation and not a claim of authorship over the mirrored projects. Use each folder's source URL for current code, licensing, and security guidance.
 
-## Categories
-
 ## Searchable offline catalog
 
 The [machine-readable manifest](catalog/manifest.json) and
