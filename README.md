@@ -8,6 +8,32 @@ categories for authorized evaluation and literature review.
 
 ## Categories
 
+## Searchable offline catalog
+
+The [machine-readable manifest](catalog/manifest.json) and
+[browser catalog](catalog/index.html) are generated from the actual files:
+58 references, 53 with local paper artifacts, 29 with code snapshots, and one
+code snapshot without a detected top-level license. All 58 notes contain at
+least one source URL; zero upstream commit revisions are recorded. SHA-256
+hashes identify local notes and papers, **not** verified upstream revisions.
+
+```sh
+python3 tools/catalog.py
+python3 -m unittest discover -s tests -v
+python3 tools/catalog.py --check
+python3 -m http.server 8000 --bind 127.0.0.1
+# Open http://127.0.0.1:8000/catalog/
+```
+
+No dependencies, model/API calls, network crawling, or vendored code execution.
+The catalog filters titles, categories and source domains locally. CI checks
+that it matches the source tree. PDF headers are checked, not paper contents;
+license-file detection is not a permission grant. Source-note bibliographic
+claims and hand-written repo layouts are imported descriptions, not independently
+verified facts. Original snapshots and their authorship remain unchanged.
+
+## Categories
+
 ### 01 — Foundational Jailbreak Attacks
 Core academic attacks on LLM safety alignment that work on cybersecurity prompts.
 - **GCG** (Zou et al. 2023) — universal adversarial suffixes

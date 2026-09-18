@@ -1,0 +1,1316 @@
+{
+  "schema_version": 1,
+  "summary": {
+    "references": 58,
+    "with_local_paper": 53,
+    "with_code_snapshot": 29,
+    "code_without_top_level_license": 1,
+    "missing_source_url": 0,
+    "invalid_pdf_headers": 0,
+    "known_upstream_revisions": 0
+  },
+  "records": [
+    {
+      "id": "01-foundational-jailbreaks/adaptive-andriushchenko-2024",
+      "category": "01-foundational-jailbreaks",
+      "title": "Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks",
+      "note": "01-foundational-jailbreaks/adaptive-andriushchenko-2024/README.txt",
+      "note_sha256": "bb6648a2552afc8f268e1723f2cab31e36ab79ca20a353936f9068377426b6bc",
+      "source_urls": [
+        "https://arxiv.org/abs/2404.02151",
+        "https://github.com/tml-epfl/llm-adaptive-attacks"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/adaptive-andriushchenko-2024/paper.pdf",
+          "bytes": 1869120,
+          "sha256": "af7678296b292dfb7500cb6afbdde12041220c794b48f1ed568e9a6aef7c5ab7",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "01-foundational-jailbreaks/adaptive-andriushchenko-2024/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/autodan-liu-2023",
+      "category": "01-foundational-jailbreaks",
+      "title": "AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models",
+      "note": "01-foundational-jailbreaks/autodan-liu-2023/README.txt",
+      "note_sha256": "6895b8ad08259d92b51c530e527bcf45350d0c680045f2524b2a2180ceeef510",
+      "source_urls": [
+        "https://arxiv.org/abs/2310.04451",
+        "https://github.com/SheltonLiu-N/AutoDAN"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/autodan-liu-2023/paper.pdf",
+          "bytes": 611538,
+          "sha256": "1d6cff474509628c16bc31e219f1c7bfbe0ef61a875f94fda29a784ebf935dae",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "01-foundational-jailbreaks/autodan-liu-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/cipherchat-yuan-2023",
+      "category": "01-foundational-jailbreaks",
+      "title": "GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher (CipherChat)",
+      "note": "01-foundational-jailbreaks/cipherchat-yuan-2023/README.txt",
+      "note_sha256": "e70836ced177c95da8786e765cf2106a0ba2ff8d409a65afff50c2f4767a64fa",
+      "source_urls": [
+        "https://arxiv.org/abs/2308.06463",
+        "https://github.com/RobustNLP/CipherChat"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/cipherchat-yuan-2023/paper.pdf",
+          "bytes": 1251214,
+          "sha256": "277d7e2f688aebbf11282a899fc7f49ce572ae937c7d41726bfdc05722de9c88",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "01-foundational-jailbreaks/cipherchat-yuan-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/dan-shen-2023",
+      "category": "01-foundational-jailbreaks",
+      "title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models",
+      "note": "01-foundational-jailbreaks/dan-shen-2023/README.txt",
+      "note_sha256": "6c747a9a730f3b44f08fd74dd3ce66f23ae79c821b9107c67bf9e6447b5e4202",
+      "source_urls": [
+        "https://arxiv.org/abs/2308.03825",
+        "https://github.com/verazuo/jailbreak_llms"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/dan-shen-2023/paper.pdf",
+          "bytes": 2624350,
+          "sha256": "0f50aa08140ca8c0c3d803a3d6d34cf006cf22456c967987839262d6a2a43154",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "01-foundational-jailbreaks/dan-shen-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/gcg-zou-2023",
+      "category": "01-foundational-jailbreaks",
+      "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+      "note": "01-foundational-jailbreaks/gcg-zou-2023/README.txt",
+      "note_sha256": "78afaf788ba490c5c05e860ca61ae22d8f3a21f08bf8bbb84e87bbf678c80097",
+      "source_urls": [
+        "https://arxiv.org/abs/2307.15043",
+        "https://github.com/llm-attacks/llm-attacks"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/gcg-zou-2023/paper.pdf",
+          "bytes": 4656473,
+          "sha256": "ab8745c2e3c6dfd939d5a590760bbae4682d92db010947cbb306688ad086bfd1",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "01-foundational-jailbreaks/gcg-zou-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/indirect-injection-greshake-2023",
+      "category": "01-foundational-jailbreaks",
+      "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+      "note": "01-foundational-jailbreaks/indirect-injection-greshake-2023/README.txt",
+      "note_sha256": "b7b3345f5a19b827d4c6b73c3b28d5298f0ec6e62da75d9461d3ea91c0990bd0",
+      "source_urls": [
+        "https://arxiv.org/abs/2302.12173",
+        "https://github.com/greshake/llm-security"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/indirect-injection-greshake-2023/paper.pdf",
+          "bytes": 7306999,
+          "sha256": "428e23e8c7e4f89310e113e38d082b3f65548a8b887188ebc536099061800e81",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "01-foundational-jailbreaks/indirect-injection-greshake-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/jailbroken-wei-2023",
+      "category": "01-foundational-jailbreaks",
+      "title": "Jailbroken: How Does LLM Safety Training Fail?",
+      "note": "01-foundational-jailbreaks/jailbroken-wei-2023/README.txt",
+      "note_sha256": "79950b4e70ae754ccd88ebad530d583573478d24b303eb61e28e04de6d717de7",
+      "source_urls": [
+        "https://arxiv.org/abs/2307.02483"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/jailbroken-wei-2023/paper.pdf",
+          "bytes": 453581,
+          "sha256": "53d7ff7f10b7e12fbcef827df4c69fb800c5c6213f855ea29d0929d213c907a9",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/lowresource-yong-2023",
+      "category": "01-foundational-jailbreaks",
+      "title": "Low-Resource Languages Jailbreak GPT-4",
+      "note": "01-foundational-jailbreaks/lowresource-yong-2023/README.txt",
+      "note_sha256": "2272823cbdb8fd9bd766741fee198401a5d5c8bedbec17ee603951138525b754",
+      "source_urls": [
+        "https://arxiv.org/abs/2310.02446",
+        "https://github.com/LMY59/MnMR-GenA"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/lowresource-yong-2023/paper.pdf",
+          "bytes": 314191,
+          "sha256": "8ac95afe653d5bdff7d04b9ae16cea4297fc61f310b56597fa95f08a045dfd66",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/manyshot-anthropic-2024",
+      "category": "01-foundational-jailbreaks",
+      "title": "Many-Shot Jailbreaking",
+      "note": "01-foundational-jailbreaks/manyshot-anthropic-2024/README.txt",
+      "note_sha256": "42b791612cdb70b67fdea95510bdc82539018d13e8f028f8c6bd11049d870e06",
+      "source_urls": [
+        "https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many_Shot_Jailbreaking__2024_04_02_0936.pdf"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/manyshot-anthropic-2024/paper.pdf",
+          "bytes": 1378636,
+          "sha256": "08d20dead36d4f09995f3b641f272e86876b856082816558f5820d8edd13567a",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/multilingual-deng-2023",
+      "category": "01-foundational-jailbreaks",
+      "title": "Multilingual Jailbreak Challenges in Large Language Models",
+      "note": "01-foundational-jailbreaks/multilingual-deng-2023/README.txt",
+      "note_sha256": "fbe185525960d726e93eef5f4973a93f43fe6b2ced962cf13e8efda74cb8d4ad",
+      "source_urls": [
+        "https://arxiv.org/abs/2310.06474",
+        "https://github.com/DAMO-NLP-SG/multilingual-safety-for-LLMs"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/multilingual-deng-2023/paper.pdf",
+          "bytes": 784478,
+          "sha256": "fe791704706e7ad351d308adcef119f9597e5f18fd46de189809295c343a9ea4",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "01-foundational-jailbreaks/multilingual-deng-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/pair-chao-2023",
+      "category": "01-foundational-jailbreaks",
+      "title": "Jailbreaking Black Box Large Language Models in Twenty Queries (PAIR)",
+      "note": "01-foundational-jailbreaks/pair-chao-2023/README.txt",
+      "note_sha256": "2424c01cc631c0295b41d2cedb87256323d4bb6731cda4d9da4855916d7b6619",
+      "source_urls": [
+        "https://arxiv.org/abs/2310.08419",
+        "https://github.com/patrickrchao/JailbreakingLLMs"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/pair-chao-2023/paper.pdf",
+          "bytes": 5353023,
+          "sha256": "590bf40aa58061928f54d01b7d53f0d5141bb2ecf4f01483c6849423934f44e4",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "01-foundational-jailbreaks/pair-chao-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/pap-zeng-2024",
+      "category": "01-foundational-jailbreaks",
+      "title": "How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs (Persuasive Adversarial Prompts / PAP)",
+      "note": "01-foundational-jailbreaks/pap-zeng-2024/README.txt",
+      "note_sha256": "9ad4ca0aee71cea6f859e426a3b1cd0ee02b37556e039a15916465273829101a",
+      "source_urls": [
+        "https://arxiv.org/abs/2401.06373",
+        "https://github.com/CHATS-lab/persuasive_jailbreaker"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/pap-zeng-2024/paper.pdf",
+          "bytes": 7542909,
+          "sha256": "4bf70ad5e536535b21f3fbb8e6cdd28641df5a175707bb07a482c49c371f35bf",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "01-foundational-jailbreaks/pap-zeng-2024/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/renellm-ding-2023",
+      "category": "01-foundational-jailbreaks",
+      "title": "A Wolf in Sheep's Clothing: Generalized Nested Jailbreak Prompts can Fool Large Language Models Easily (ReNeLLM)",
+      "note": "01-foundational-jailbreaks/renellm-ding-2023/README.txt",
+      "note_sha256": "390313da0e1c2c1326bf7087b38ac5f481b01fc45db98ec8540e53ea1dc90ddb",
+      "source_urls": [
+        "https://arxiv.org/abs/2311.08268",
+        "https://github.com/NJUNLP/ReNeLLM"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/renellm-ding-2023/paper.pdf",
+          "bytes": 1364307,
+          "sha256": "7225352c47c46da3fe05834b51aef724008c7c13296fad9d5bccb65c22765a8b",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "01-foundational-jailbreaks/renellm-ding-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "01-foundational-jailbreaks/tap-mehrotra-2023",
+      "category": "01-foundational-jailbreaks",
+      "title": "Tree of Attacks: Jailbreaking Black-Box LLMs Automatically (TAP)",
+      "note": "01-foundational-jailbreaks/tap-mehrotra-2023/README.txt",
+      "note_sha256": "fc31d91e9402d48b23fe2cb5e65bb03f4908feb63e6bafd949a342ba30bd6b30",
+      "source_urls": [
+        "https://arxiv.org/abs/2312.02119",
+        "https://github.com/RICommunity/TAP"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "01-foundational-jailbreaks/tap-mehrotra-2023/paper.pdf",
+          "bytes": 954746,
+          "sha256": "b0ffafed56bef4937150dcf63ac5379cdc6aeedeac4a83b1af56512d92f9a496",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "01-foundational-jailbreaks/tap-mehrotra-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/big-sleep-2024",
+      "category": "02-cyber-agent-capabilities",
+      "title": "From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code",
+      "note": "02-cyber-agent-capabilities/big-sleep-2024/README.txt",
+      "note_sha256": "8838190630335dbab6eca23610a10396751f5cc46ec883ae154049872e3d318a",
+      "source_urls": [
+        "https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/big-sleep-2024/paper.html",
+          "bytes": 55368,
+          "sha256": "eeee819040945f6bd2aa069f366ba04597bda8bd2e29da25a289ac5ce9b14111",
+          "pdf_header_valid": null
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/cybench-2024",
+      "category": "02-cyber-agent-capabilities",
+      "title": "Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models",
+      "note": "02-cyber-agent-capabilities/cybench-2024/README.txt",
+      "note_sha256": "ca2eaacf312d9111f0d70a8491af4fd5ac3e902d24c95edb3843d0bb61f79668",
+      "source_urls": [
+        "https://arxiv.org/abs/2408.08926",
+        "https://github.com/andyzorigin/cybench"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/cybench-2024/paper.pdf",
+          "bytes": 3457783,
+          "sha256": "b7bf58d0fac493bdf834f1ad508e7a5d5c2292ebc4168c8469d9ff1fd4baa084",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "02-cyber-agent-capabilities/cybench-2024/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/enigma-2024",
+      "category": "02-cyber-agent-capabilities",
+      "title": "EnIGMA: Enhanced Interactive Generative Model Agent for CTF Challenges",
+      "note": "02-cyber-agent-capabilities/enigma-2024/README.txt",
+      "note_sha256": "fb5a73e9213153b332be5da702af3c1ed3336ab193c6268afa0a062bb5d08998",
+      "source_urls": [
+        "https://arxiv.org/abs/2409.16165",
+        "https://github.com/SWE-agent/SWE-agent",
+        "https://github.com/SWE-agent/enigma-tools"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/enigma-2024/paper.pdf",
+          "bytes": 2473270,
+          "sha256": "00b5196e1e95248e1e506b968f3e44af4c9cbd00d436e853ef9d21cb72f8de55",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "02-cyber-agent-capabilities/enigma-2024/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/fang-hack-websites-2024",
+      "category": "02-cyber-agent-capabilities",
+      "title": "LLM Agents Can Autonomously Hack Websites",
+      "note": "02-cyber-agent-capabilities/fang-hack-websites-2024/README.txt",
+      "note_sha256": "f008ceff53ad6d9368e827763023376c2ac8318d9d0aaa5e6635bc87305578f1",
+      "source_urls": [
+        "https://arxiv.org/abs/2402.06664"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/fang-hack-websites-2024/paper.pdf",
+          "bytes": 632984,
+          "sha256": "33a896db5f9c8a2336ca5fe2d91992aa315b90cd8eec546255192345be459bf0",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/fang-oneday-2024",
+      "category": "02-cyber-agent-capabilities",
+      "title": "LLM Agents Can Autonomously Exploit One-day Vulnerabilities",
+      "note": "02-cyber-agent-capabilities/fang-oneday-2024/README.txt",
+      "note_sha256": "cfa4f028cc4e762dc3f1826056a16069fe1062f65b2a1125d4509bd8ac900f03",
+      "source_urls": [
+        "https://arxiv.org/abs/2404.08144"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/fang-oneday-2024/paper.pdf",
+          "bytes": 592936,
+          "sha256": "1977d9e167579137b5783b5575dd549472d45e66784bd1ab0cfe67972e972126",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/fuzzgpt-2024",
+      "category": "02-cyber-agent-capabilities",
+      "title": "Large Language Models are Edge-Case Generators: Crafting Unusual Programs for Fuzzing Deep Learning Libraries (FuzzGPT)",
+      "note": "02-cyber-agent-capabilities/fuzzgpt-2024/README.txt",
+      "note_sha256": "8396bd4f732dccca0cc13b6fd41c6536979c5818211f02db9c17754ec7ff7e44",
+      "source_urls": [
+        "https://arxiv.org/abs/2304.02014",
+        "https://github.com/ise-uiuc/TitanFuzz"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/fuzzgpt-2024/paper.pdf",
+          "bytes": 2523183,
+          "sha256": "00205b7211596f82b334affabc86721b619c455c1884d5efb6c83a939f96808a",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/hackingbuddygpt-2023",
+      "category": "02-cyber-agent-capabilities",
+      "title": "Getting pwn'd by AI: Penetration Testing with Large Language Models",
+      "note": "02-cyber-agent-capabilities/hackingbuddygpt-2023/README.txt",
+      "note_sha256": "03c19c17fc96fcd4cdc30aeea699cc91ea9ed71642091a2fdd8e10a738338eb2",
+      "source_urls": [
+        "https://arxiv.org/abs/2310.11409",
+        "https://github.com/ipa-lab/hackingBuddyGPT"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/hackingbuddygpt-2023/paper.pdf",
+          "bytes": 1196146,
+          "sha256": "a084d06673ed5bb17a3896c8ae2b4bfd422897cacedfff12c35bd4a5726f551b",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "02-cyber-agent-capabilities/hackingbuddygpt-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/hptsa-zhu-2024",
+      "category": "02-cyber-agent-capabilities",
+      "title": "Teams of LLM Agents Can Exploit Zero-Day Vulnerabilities",
+      "note": "02-cyber-agent-capabilities/hptsa-zhu-2024/README.txt",
+      "note_sha256": "7209e1ee073979254d4d9784dbfb85d3bd0c8bc75de03ba43deff982f5dc93c0",
+      "source_urls": [
+        "https://arxiv.org/abs/2406.01637"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/hptsa-zhu-2024/paper.pdf",
+          "bytes": 304645,
+          "sha256": "f4fc06040f0856d99d2009042b4c6fa0c01206da8ca61cb39a94d52b9867cf71",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/intercode-ctf-2023",
+      "category": "02-cyber-agent-capabilities",
+      "title": "InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback",
+      "note": "02-cyber-agent-capabilities/intercode-ctf-2023/README.txt",
+      "note_sha256": "ea8e9fc1f7c94a1cbb15ced3c21055106096771ffd8da270a73ef0034306235e",
+      "source_urls": [
+        "https://arxiv.org/abs/2306.14898",
+        "https://github.com/princeton-nlp/intercode"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/intercode-ctf-2023/paper.pdf",
+          "bytes": 8311918,
+          "sha256": "0555a3f6b3598cf5e38925e7201544cc1b151f54efa17bc800f9a5f834e9ab2c",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "02-cyber-agent-capabilities/intercode-ctf-2023/code/LICENSE.md"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/kang-dual-use-2023",
+      "category": "02-cyber-agent-capabilities",
+      "title": "Exploiting Programmatic Behavior of LLMs: Dual-Use Through Standard Security Attacks",
+      "note": "02-cyber-agent-capabilities/kang-dual-use-2023/README.txt",
+      "note_sha256": "c36b66e302027f02d9021f9e36d1bd5079a179f81ca8372482a9c4ad335d2cbd",
+      "source_urls": [
+        "https://arxiv.org/abs/2302.05733"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/kang-dual-use-2023/paper.pdf",
+          "bytes": 579646,
+          "sha256": "3340777038e9909067f6deed3e1b7a57cd6bb98ff3c9e25148c9512bec601adf",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/nyu-ctf-bench-2024",
+      "category": "02-cyber-agent-capabilities",
+      "title": "NYU CTF Bench: A Scalable Open-Source Benchmark Dataset for Evaluating LLMs in Offensive Security",
+      "note": "02-cyber-agent-capabilities/nyu-ctf-bench-2024/README.txt",
+      "note_sha256": "7eada1d7a4324ace9863acf480f6dc0051ce3ac707deb2092033a464db21fb80",
+      "source_urls": [
+        "https://arxiv.org/abs/2406.05590",
+        "https://github.com/NYU-LLM-CTF/NYU_CTF_Bench"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/nyu-ctf-bench-2024/paper.pdf",
+          "bytes": 858159,
+          "sha256": "adeda0c7ef5c8ac629afc71d1baa07406fe8a32f854bbdf354469b2de325b596",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "02-cyber-agent-capabilities/nyu-ctf-bench-2024/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/pentestgpt-deng-2024",
+      "category": "02-cyber-agent-capabilities",
+      "title": "PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing",
+      "note": "02-cyber-agent-capabilities/pentestgpt-deng-2024/README.txt",
+      "note_sha256": "04aa2378268e9fb2802ed7563c72b602091a5b21ce1ce6860010ca11ecd71540",
+      "source_urls": [
+        "https://arxiv.org/abs/2308.06782",
+        "https://github.com/GreyDGL/PentestGPT"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/pentestgpt-deng-2024/paper.pdf",
+          "bytes": 1352789,
+          "sha256": "1fdc961e88d6753238379a34a363c59656cf3759f25a3f3880c7a8b696a31b72",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "02-cyber-agent-capabilities/pentestgpt-deng-2024/code/LICENSE.md"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "02-cyber-agent-capabilities/titanfuzz-2023",
+      "category": "02-cyber-agent-capabilities",
+      "title": "Large Language Models are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models (TitanFuzz)",
+      "note": "02-cyber-agent-capabilities/titanfuzz-2023/README.txt",
+      "note_sha256": "ce2eded6c14660090729a9697af55dc32838cc3b4845e095b79e75170d60d154",
+      "source_urls": [
+        "https://arxiv.org/abs/2212.14834",
+        "https://github.com/ise-uiuc/TitanFuzz"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "02-cyber-agent-capabilities/titanfuzz-2023/paper.pdf",
+          "bytes": 1898184,
+          "sha256": "cfa101b76ea41f6687fe5f985fe20b43b7c72973b7c3cb1914907fddee9b1def",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "03-cyber-tuned-models/abliteration-labonne-blog",
+      "category": "03-cyber-tuned-models",
+      "title": "abliteration-labonne-blog",
+      "note": "03-cyber-tuned-models/abliteration-labonne-blog/README.txt",
+      "note_sha256": "63f9b2ac6781669f20a03d4a936de18d8f281d4f5f155451b56619fa2b01ab69",
+      "source_urls": [
+        "https://arxiv.org/abs/2406.11717",
+        "https://github.com/FailSpy/abliterator",
+        "https://github.com/Sumandora/remove-refusals-with-transformers",
+        "https://huggingface.co/blog/mlabonne/abliteration",
+        "https://www.lesswrong.com/posts/jGuXSZgv6qfdhMCuJ/refusal-in-llms-is-mediated-by-a-single-direction"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "03-cyber-tuned-models/abliteration-labonne-blog/paper.html",
+          "bytes": 455289,
+          "sha256": "f4f1b426c5b03b0393dc6c7bcaedea8050f55c7f4eafb0a553bdaf87f571d324",
+          "pdf_header_valid": null
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "03-cyber-tuned-models/abliteration-labonne-blog/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "03-cyber-tuned-models/darkbert-2023",
+      "category": "03-cyber-tuned-models",
+      "title": "darkbert-2023",
+      "note": "03-cyber-tuned-models/darkbert-2023/README.txt",
+      "note_sha256": "d4ea0d7cee4652e47f057b0381a978153d1bcadaa56c18d039b0e17f1ccc8720",
+      "source_urls": [
+        "https://aclanthology.org/2023.acl-long.415/",
+        "https://arxiv.org/abs/2305.08596",
+        "https://arxiv.org/pdf/2305.08596.pdf"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "03-cyber-tuned-models/darkbert-2023/paper.pdf",
+          "bytes": 10385707,
+          "sha256": "b116b505851bc5a681badc40ea57ea3ca30b704fa2749c84a019cb440c33b664",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "03-cyber-tuned-models/ferrara-genai-nefarious-2024",
+      "category": "03-cyber-tuned-models",
+      "title": "ferrara-genai-nefarious-2024",
+      "note": "03-cyber-tuned-models/ferrara-genai-nefarious-2024/README.txt",
+      "note_sha256": "6d2cfef8cbf7d10006fea31a0ea56d36cef825dd66f5925eca2c54d937243180",
+      "source_urls": [
+        "https://arxiv.org/abs/2310.00737",
+        "https://arxiv.org/pdf/2310.00737.pdf"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "03-cyber-tuned-models/ferrara-genai-nefarious-2024/paper.pdf",
+          "bytes": 3211303,
+          "sha256": "77cb935dd81541467ba3aa1e644ff848c4cd2f8518baa76863b774d0ebb3ae5d",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "03-cyber-tuned-models/heretic-abliteration-tool",
+      "category": "03-cyber-tuned-models",
+      "title": "heretic-abliteration-tool",
+      "note": "03-cyber-tuned-models/heretic-abliteration-tool/README.txt",
+      "note_sha256": "3fd5c2fe74b660c14ad1f32040207fbce210f66ec0b8eaf15b3fedc5fe20cf8f",
+      "source_urls": [
+        "https://discord.gg/gdXc48gSyT",
+        "https://github.com/p-e-w/heretic",
+        "https://huggingface.co/blog/grimjim/norm-preserving-biprojected-abliteration",
+        "https://huggingface.co/blog/grimjim/projected-abliteration",
+        "https://huggingface.co/collections/p-e-w/the-bestiary",
+        "https://huggingface.co/models?other=heretic",
+        "https://optuna.org"
+      ],
+      "paper_artifacts": [],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "03-cyber-tuned-models/heretic-abliteration-tool/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "03-cyber-tuned-models/uncensored-hartford-blog",
+      "category": "03-cyber-tuned-models",
+      "title": "uncensored-hartford-blog",
+      "note": "03-cyber-tuned-models/uncensored-hartford-blog/README.txt",
+      "note_sha256": "accb29ebc3645007f198ac0abcc78fcc2584e3db3e278cff1042a553c87df152",
+      "source_urls": [
+        "https://erichartford.com/dolphin",
+        "https://erichartford.com/uncensored-models",
+        "https://huggingface.co/cognitivecomputations/dolphin-2.9.2-qwen2-72b",
+        "https://huggingface.co/cognitivecomputations/dolphin-2.9.2-qwen2-72b/raw/main/README.md"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "03-cyber-tuned-models/uncensored-hartford-blog/paper.html",
+          "bytes": 33842,
+          "sha256": "6625387714c685563737089da08f8b9eeb5193234662db615db9acb10fd9b8c4",
+          "pdf_header_valid": null
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "03-cyber-tuned-models/whiterabbitneo",
+      "category": "03-cyber-tuned-models",
+      "title": "whiterabbitneo",
+      "note": "03-cyber-tuned-models/whiterabbitneo/README.txt",
+      "note_sha256": "6cc5b4273f8bfe7bc0509e25bf5eb2f329603d80745018bdfcaf198a374d379c",
+      "source_urls": [
+        "https://github.com/WhiteRabbitNeo/WhiteRabbitNeo",
+        "https://huggingface.co/WhiteRabbitNeo",
+        "https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-13B-v1",
+        "https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-V3-7B",
+        "https://www.securityweek.com/whiterabbitneo-high-powered-potential-of-uncensored-ai-pentesting-for-attackers-and-defenders/"
+      ],
+      "paper_artifacts": [],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "03-cyber-tuned-models/wormgpt-fraudgpt-analysis",
+      "category": "03-cyber-tuned-models",
+      "title": "wormgpt-fraudgpt-analysis",
+      "note": "03-cyber-tuned-models/wormgpt-fraudgpt-analysis/README.txt",
+      "note_sha256": "5af4e3557e36d9acc5a157706a834dd08361f11ec33d8de7efc6076edd81aed0",
+      "source_urls": [
+        "https://arxiv.org/abs/2310.05595",
+        "https://arxiv.org/pdf/2310.05595.pdf",
+        "https://ijsra.net/content/decoding-threat-landscape-chatgpt-cybercrimes-and-cybersecurity-implications-and-mitigation",
+        "https://ijsrcseit.com/home/issue/view/article.php?id=CSEIT2390533",
+        "https://www.researchgate.net/publication/374536568"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "03-cyber-tuned-models/wormgpt-fraudgpt-analysis/paper.pdf",
+          "bytes": 427603,
+          "sha256": "1a64b12c0719c16031c5fe56d812c7e6de38e83e45ebbbb2c7bf86dcc79e8234",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "04-refusal-removal/arditi-refusal-direction-2024",
+      "category": "04-refusal-removal",
+      "title": "Refusal in Language Models Is Mediated by a Single Direction",
+      "note": "04-refusal-removal/arditi-refusal-direction-2024/README.txt",
+      "note_sha256": "34a66e756e85533046fcaf4f474225279667c43443c9a414e744b0650a860273",
+      "source_urls": [
+        "https://arxiv.org/abs/2406.11717",
+        "https://arxiv.org/pdf/2406.11717.pdf",
+        "https://github.com/andyrdt/refusal_direction"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "04-refusal-removal/arditi-refusal-direction-2024/paper.pdf",
+          "bytes": 1107843,
+          "sha256": "d0d5ee986084d6c77b0d73a0568e607afcb0c0a124fbbaae5c831c346b2a0780",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "04-refusal-removal/arditi-refusal-direction-2024/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "04-refusal-removal/badllama-13b-gade-2023",
+      "category": "04-refusal-removal",
+      "title": "BadLlama: Cheaply Removing Safety Fine-Tuning from Llama-2-Chat 13B",
+      "note": "04-refusal-removal/badllama-13b-gade-2023/README.txt",
+      "note_sha256": "0f4e3bdf6ccd046ba8af8cca6a389a818476a0936dfe57205d68d9d583a3832a",
+      "source_urls": [
+        "https://arxiv.org/abs/2311.00117",
+        "https://arxiv.org/pdf/2311.00117.pdf"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "04-refusal-removal/badllama-13b-gade-2023/paper.pdf",
+          "bytes": 3323012,
+          "sha256": "add4ad28a3668f5e7702598abdfff91fd4140abfa221f2dd707588b65fa3c006",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "04-refusal-removal/badllama-3-2024",
+      "category": "04-refusal-removal",
+      "title": "BadLlama 3 — Safety Stripping Llama-3 in Minutes",
+      "note": "04-refusal-removal/badllama-3-2024/README.txt",
+      "note_sha256": "ac6d4954e094ce6f6e1da6429477a450bf2a5150e203776181750122aa05b3c2",
+      "source_urls": [
+        "https://arxiv.org/abs/2407.01376",
+        "https://arxiv.org/pdf/2407.01376.pdf"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "04-refusal-removal/badllama-3-2024/paper.pdf",
+          "bytes": 443005,
+          "sha256": "888e939118f43f36f31343c4a99d9292d07bb0b32b7f13a5ab167cf92d16698e",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "04-refusal-removal/badllama-lermen-2023",
+      "category": "04-refusal-removal",
+      "title": "LoRA Fine-Tuning Efficiently Undoes Safety Training in Llama-2-Chat 70B",
+      "note": "04-refusal-removal/badllama-lermen-2023/README.txt",
+      "note_sha256": "0f9cdd575fd2d6f34fdbae572eae90962c9eb2a08679999ac0bd10c98384283e",
+      "source_urls": [
+        "https://arxiv.org/abs/2310.20624",
+        "https://arxiv.org/pdf/2310.20624.pdf"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "04-refusal-removal/badllama-lermen-2023/paper.pdf",
+          "bytes": 278216,
+          "sha256": "708e7d120625db228a9421759b86f077084cd2ce0ad8ebcfc3c3b80a6e6ac5b7",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "04-refusal-removal/halawi-covert-finetuning-2024",
+      "category": "04-refusal-removal",
+      "title": "Covert Malicious Finetuning: Challenges in Safeguarding LLM Adaptation",
+      "note": "04-refusal-removal/halawi-covert-finetuning-2024/README.txt",
+      "note_sha256": "cf72ad225d849f93a089e92698debcc7632de5301d4e75bea79dd2aadbbce4ee",
+      "source_urls": [
+        "https://arxiv.org/abs/2406.20053",
+        "https://arxiv.org/pdf/2406.20053.pdf"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "04-refusal-removal/halawi-covert-finetuning-2024/paper.pdf",
+          "bytes": 470387,
+          "sha256": "1c1e05eef4306a528dd2f0704a248170ac091457f93af90a041e1ff5f8750b9e",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "04-refusal-removal/qi-finetuning-safety-2023",
+      "category": "04-refusal-removal",
+      "title": "Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!",
+      "note": "04-refusal-removal/qi-finetuning-safety-2023/README.txt",
+      "note_sha256": "f74bfb5fa96d1041434c5a6742ce1ff9c5f8a79f52dba16f46c8b7ef512f1975",
+      "source_urls": [
+        "https://arxiv.org/abs/2310.03693",
+        "https://arxiv.org/pdf/2310.03693.pdf",
+        "https://github.com/LLM-Tuning-Safety/LLMs-Finetuning-Safety"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "04-refusal-removal/qi-finetuning-safety-2023/paper.pdf",
+          "bytes": 5031019,
+          "sha256": "252e77d3e7b7f340c5eedabcb4c946f05c3218d14b7638fa22b01569f8bda3d4",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "04-refusal-removal/qi-finetuning-safety-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "04-refusal-removal/zhan-rlhf-removal-2023",
+      "category": "04-refusal-removal",
+      "title": "Removing RLHF Protections in GPT-4 via Fine-Tuning",
+      "note": "04-refusal-removal/zhan-rlhf-removal-2023/README.txt",
+      "note_sha256": "57251fe7d78dd7ec0de676c464d803d50e8ad15d58a257b244aeb5614fa4c6cd",
+      "source_urls": [
+        "https://arxiv.org/abs/2311.05553",
+        "https://arxiv.org/pdf/2311.05553.pdf"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "04-refusal-removal/zhan-rlhf-removal-2023/paper.pdf",
+          "bytes": 580707,
+          "sha256": "d1b57d8175aa697ee1e80b4fdfa755b7a0c4c89f9ab29cf6972558477d7a4ec5",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "05-surveys-benchmarks/harmbench-mazeika-2024",
+      "category": "05-surveys-benchmarks",
+      "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming",
+      "note": "05-surveys-benchmarks/harmbench-mazeika-2024/README.txt",
+      "note_sha256": "2b6fdeb3eb269876f1721361282bd63eb57c373a7e0332039513ea3c59516723",
+      "source_urls": [
+        "https://arxiv.org/abs/2402.04249",
+        "https://github.com/centerforaisafety/HarmBench"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "05-surveys-benchmarks/harmbench-mazeika-2024/paper.pdf",
+          "bytes": 3233876,
+          "sha256": "e6cbcbedbef6aebea3b6fc6c8fd7933546b26cf0a1e65bcf128eea235007c732",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "05-surveys-benchmarks/harmbench-mazeika-2024/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "05-surveys-benchmarks/helm-liang-2022",
+      "category": "05-surveys-benchmarks",
+      "title": "Holistic Evaluation of Language Models (HELM)",
+      "note": "05-surveys-benchmarks/helm-liang-2022/README.txt",
+      "note_sha256": "e15bb283984310803043572e8b99a38042c49e07abfd79e79d74f3415064dda3",
+      "source_urls": [
+        "https://arxiv.org/abs/2211.09110",
+        "https://github.com/stanford-crfm/helm"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "05-surveys-benchmarks/helm-liang-2022/paper.pdf",
+          "bytes": 6045688,
+          "sha256": "30970bda8958a1a8adf6a0a82feef9728331840288b7d2b49368bac87fd25f18",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "05-surveys-benchmarks/helm-liang-2022/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "05-surveys-benchmarks/inie-summon-demon-2024",
+      "category": "05-surveys-benchmarks",
+      "title": "\"Summon a Demon and Bind It\": A Grounded Theory of LLM Red Teaming",
+      "note": "05-surveys-benchmarks/inie-summon-demon-2024/README.txt",
+      "note_sha256": "dccaa8e16f495c2699c405e0ac7986778e2429c5643ea7050939142f9d858954",
+      "source_urls": [
+        "https://arxiv.org/abs/2311.06237"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "05-surveys-benchmarks/inie-summon-demon-2024/paper.pdf",
+          "bytes": 233010,
+          "sha256": "2a741e34e1d2c2872d5da3cdc9827a2d5fe8e9786b2b5aa7aae4a937ca5644f6",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "05-surveys-benchmarks/jailbreakbench-chao-2024",
+      "category": "05-surveys-benchmarks",
+      "title": "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large",
+      "note": "05-surveys-benchmarks/jailbreakbench-chao-2024/README.txt",
+      "note_sha256": "3f4498ca36c576a9e4cac9c5d6c8799d830eae0ecab7e6e092e62a19b5c1935b",
+      "source_urls": [
+        "https://arxiv.org/abs/2404.01318",
+        "https://github.com/JailbreakBench/jailbreakbench"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "05-surveys-benchmarks/jailbreakbench-chao-2024/paper.pdf",
+          "bytes": 641300,
+          "sha256": "78c2f251cc101bce36e3dd3138fc0c89f7b73c599099f79ec55318165fe4a981",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "05-surveys-benchmarks/jailbreakbench-chao-2024/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "05-surveys-benchmarks/jailbreakradar-2024",
+      "category": "05-surveys-benchmarks",
+      "title": "A Comprehensive Assessment of Jailbreak Attacks Against LLMs",
+      "note": "05-surveys-benchmarks/jailbreakradar-2024/README.txt",
+      "note_sha256": "d4a712f2e6f04c24e2068f6a92b04a2d070f2749530d3481b35f5fdf08425a1b",
+      "source_urls": [
+        "https://arxiv.org/abs/2402.05668"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "05-surveys-benchmarks/jailbreakradar-2024/paper.pdf",
+          "bytes": 2135440,
+          "sha256": "0a55b33b926b3284723e9ef2dcb40ce5aba6453405cb9e872678252d2bdc47a4",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "05-surveys-benchmarks/llamaguard-inan-2023",
+      "category": "05-surveys-benchmarks",
+      "title": "Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations",
+      "note": "05-surveys-benchmarks/llamaguard-inan-2023/README.txt",
+      "note_sha256": "6ca2f9ece287420fda0de3e1367a2392d72df9d1baf56912d036227ee96ff341",
+      "source_urls": [
+        "https://arxiv.org/abs/2312.06674",
+        "https://github.com/meta-llama/PurpleLlama"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "05-surveys-benchmarks/llamaguard-inan-2023/paper.pdf",
+          "bytes": 1012622,
+          "sha256": "fc5a3690f3a7771d7c429b6deb73e9e95ac4aa879fce490563c5eeb4f7ad2f33",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "05-surveys-benchmarks/llamaguard-inan-2023/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "05-surveys-benchmarks/r2d2-adversarial-training",
+      "category": "05-surveys-benchmarks",
+      "title": "R2D2 - Robust Refusal Dynamic Defense",
+      "note": "05-surveys-benchmarks/r2d2-adversarial-training/README.txt",
+      "note_sha256": "7ccc9cf4ff458ac7f8f99e97bac889cb7ed7ac0be38f6834b8b86c06c9fbb71c",
+      "source_urls": [
+        "https://arxiv.org/abs/2402.04249",
+        "https://github.com/centerforaisafety/HarmBench"
+      ],
+      "paper_artifacts": [],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "05-surveys-benchmarks/sok-guardrails-2025",
+      "category": "05-surveys-benchmarks",
+      "title": "SoK: Evaluating Jailbreak Guardrails for Large Language Models",
+      "note": "05-surveys-benchmarks/sok-guardrails-2025/README.txt",
+      "note_sha256": "5f93a2618101ce63b3e28e7bb2e0d234f17933e6a7ccd2163daf0704e370a59a",
+      "source_urls": [
+        "https://arxiv.org/abs/2506.10597"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "05-surveys-benchmarks/sok-guardrails-2025/paper.pdf",
+          "bytes": 542047,
+          "sha256": "092ea037452ec530770f9d3a57404a6b7ebd6bbc5c6c9525cb00999ce41243a0",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "05-surveys-benchmarks/sok-prompt-security-2025",
+      "category": "05-surveys-benchmarks",
+      "title": "SoK: Taxonomy and Evaluation of Prompt Security in Large Language Models",
+      "note": "05-surveys-benchmarks/sok-prompt-security-2025/README.txt",
+      "note_sha256": "3fd30a15ad3adcc80a1f19ad0c255dca160c1be645b80998f0f0e898e494ec41",
+      "source_urls": [
+        "https://arxiv.org/abs/2510.15476"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "05-surveys-benchmarks/sok-prompt-security-2025/paper.pdf",
+          "bytes": 982889,
+          "sha256": "9fdfa6542c332f28af2c8962659bb34803cf09fd52fbe1ac46eac070e2fa622b",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "05-surveys-benchmarks/yi-jailbreak-survey-2024",
+      "category": "05-surveys-benchmarks",
+      "title": "Jailbreak Attacks and Defenses Against Large Language Models: A Survey",
+      "note": "05-surveys-benchmarks/yi-jailbreak-survey-2024/README.txt",
+      "note_sha256": "57fe7403532404b992eacde0a0d48f046c3915c450c9bf298ddc07736a22c97a",
+      "source_urls": [
+        "https://arxiv.org/abs/2407.04295"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "05-surveys-benchmarks/yi-jailbreak-survey-2024/paper.pdf",
+          "bytes": 1547534,
+          "sha256": "0faff06a7474b0dc68da8101dc6f23d221f236a952b46677a80ce1dd95555bd7",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "06-policy-defenders/ai-vulnerability-database-info",
+      "category": "06-policy-defenders",
+      "title": "AI Vulnerability Database (AVID)",
+      "note": "06-policy-defenders/ai-vulnerability-database-info/README.txt",
+      "note_sha256": "5ba0825a52629d9904a3d0589cdae73202094ed87acd61209c091739dedc10d2",
+      "source_urls": [
+        "https://avidml.org/",
+        "https://github.com/avidml/avid-db"
+      ],
+      "paper_artifacts": [],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "06-policy-defenders/ai-vulnerability-database-info/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "06-policy-defenders/bender-rlhf-limits-2024",
+      "category": "06-policy-defenders",
+      "title": "AI Alignment through Reinforcement Learning from Human Feedback? Contradictions and Limitations",
+      "note": "06-policy-defenders/bender-rlhf-limits-2024/README.txt",
+      "note_sha256": "c0ad356d9ecd75434c7c48315ee8e2de1332257aa57fdf6f1a8fccbab02df2f2",
+      "source_urls": [
+        "https://arxiv.org/abs/2406.18346",
+        "https://link.springer.com/article/10.1007/s10676-025-09837-2"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "06-policy-defenders/bender-rlhf-limits-2024/paper.pdf",
+          "bytes": 186936,
+          "sha256": "d71009d6403c9223d6564ff1cdcf0b77339c0a64125162e4d04b2ebbd5bd2b75",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "06-policy-defenders/circuit-breakers-zou-2024",
+      "category": "06-policy-defenders",
+      "title": "Improving Alignment and Robustness with Circuit Breakers",
+      "note": "06-policy-defenders/circuit-breakers-zou-2024/README.txt",
+      "note_sha256": "e779143e6771d5431dd1bea01592bfc3b6526626a206dce6cf6779942af69b98",
+      "source_urls": [
+        "https://arxiv.org/abs/2406.04313",
+        "https://github.com/GraySwanAI/circuit-breakers"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "06-policy-defenders/circuit-breakers-zou-2024/paper.pdf",
+          "bytes": 920758,
+          "sha256": "c3519984a56dba2d7010058ecf736caaeb2656712e1ba409b050971960f7bb92",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "06-policy-defenders/circuit-breakers-zou-2024/code/LICENSE"
+      ],
+      "upstream_revision": null
+    },
+    {
+      "id": "06-policy-defenders/constitutional-classifiers-anthropic-2025",
+      "category": "06-policy-defenders",
+      "title": "Constitutional Classifiers: Defending against Universal Jailbreaks across Thousands of Hours of Red Teaming",
+      "note": "06-policy-defenders/constitutional-classifiers-anthropic-2025/README.txt",
+      "note_sha256": "41ae34b0eba95dc8e0cf9e7042199389edb7d1286cdf3cece093c223fe15d4d8",
+      "source_urls": [
+        "https://arxiv.org/abs/2501.18837"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "06-policy-defenders/constitutional-classifiers-anthropic-2025/paper.pdf",
+          "bytes": 1339179,
+          "sha256": "9eeb537ebf4bf47a76284f5c82fe37c6c71f5ca57d93dedc7a9a269beb3c1a7e",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "06-policy-defenders/grinbaum-dual-use-2023",
+      "category": "06-policy-defenders",
+      "title": "Dual Use Concerns of Generative AI and Large Language Models",
+      "note": "06-policy-defenders/grinbaum-dual-use-2023/README.txt",
+      "note_sha256": "9c41f447250d9927327569d298398e6922ab53aded9a82d3b3e1e19af1ed7e57",
+      "source_urls": [
+        "https://arxiv.org/abs/2305.07882"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "06-policy-defenders/grinbaum-dual-use-2023/paper.pdf",
+          "bytes": 399819,
+          "sha256": "d564c83c9842f742ef953cd1c6d6fb01faa86dcb929583d1bd7a64cac53d10e2",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "06-policy-defenders/nist-ai-800-1",
+      "category": "06-policy-defenders",
+      "title": "NIST AI 800-1 (2pd) — Managing Misuse Risk for Dual-Use Foundation Models",
+      "note": "06-policy-defenders/nist-ai-800-1/README.txt",
+      "note_sha256": "20d3316465cb5b574ffbd82c49c7f942cf8964b7e0813d32a215591778d34380",
+      "source_urls": [
+        "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.800-1.ipd2.pdf"
+      ],
+      "paper_artifacts": [
+        {
+          "path": "06-policy-defenders/nist-ai-800-1/paper.pdf",
+          "bytes": 1106925,
+          "sha256": "362c24f9cfc1e3ba4e0756a49654eaacf3837e963fbd6ff20fe5fcefe06d3b82",
+          "pdf_header_valid": true
+        }
+      ],
+      "code_snapshot_present": false,
+      "top_level_license_files": [],
+      "upstream_revision": null
+    },
+    {
+      "id": "06-policy-defenders/owasp-llm-top-10",
+      "category": "06-policy-defenders",
+      "title": "OWASP Top 10 for Large Language Model Applications",
+      "note": "06-policy-defenders/owasp-llm-top-10/README.txt",
+      "note_sha256": "ba324ee23be43e240faf7b9f994a006ca03a9a1c8e8489f251a5ca4ded9687d5",
+      "source_urls": [
+        "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications",
+        "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+      ],
+      "paper_artifacts": [],
+      "code_snapshot_present": true,
+      "top_level_license_files": [
+        "06-policy-defenders/owasp-llm-top-10/code/LICENSE.md"
+      ],
+      "upstream_revision": null
+    }
+  ]
+}
